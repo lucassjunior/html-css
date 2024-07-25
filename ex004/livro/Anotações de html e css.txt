@@ -1,0 +1,91 @@
+                                -Guia de estudo-   
+------------------------------------------------------------------------------------------------------------------------ gustavoguanabara.github.io
+https://github.com/gustavoguanabara/
+html-css/tree/master/aulas-pdf
+https://www.academia.edu/40442620/JavaScript_O_Guia_Definitivo_v
+https://unsplash.com/pt-br - Imagens
+https://www.iconarchive.com/search?q=l site de icons
+favicon.io vira png em icons
+pexels - imagens
+https://www.seaart.ai/pt -Imagens
+UTF8-?
+                                -Comandos-  
+
+<meta charset ="UTF-8" ( deixa para usar ascentuações )
+
+<hr> linha horizontal
+
+<br> quebro pra linha de baixo 'frase'
+
+&lt; < &gt;>
+
+img carrega imagem
+
+link:favicon icone em cima do site
+-------------------------------------------------------------------------------------------------------------------------
+
+<b>Negrito</b> ou <strong>Negrito</strong>
+
+<i>Italico</i> ou <em>Italico</em>
+-------------------------------------------------------------------------------------------------------------------------
+<mark>Marcação</mark>
+mark style="background-color: aqua; cor ou pra varios mark ou qualquer outra coisa q envovla style uso
+<style>
+    mark {
+        background-color: aqua;
+    }
+
+</style>
+-------------------------------------------------------------------------------------------------------------------------
+<small>Pequeno</small>
+-------------------------------------------------------------------------------------------------------------------------
+
+<ins>texto sublinhado</ins>
+
+<del>Texto com risco no meio ou deletado mas ta ali pra ler</del>
+
+<sup>Cima</sup>
+
+<sub>Baixo</sub>
+
+<code>Espaçamento nas letra</code>
+
+<pre>Faz as linha
+    ficar assim
+            MESMO ESPAÇADO
+</pre> 
+
+<q>A cituação em ''</q>
+
+<blockquote>Tipo um paragrafo</blockquote>
+
+abbr title="html"></abbr>
+
+<bdo dir="rtl">Inverte o testo</bdo>
+
+<ol>Lista ordenadas
+    <li>Lista simples</li>
+    <li>Tomar banho</li>
+    <li>Tomar cafe</li>
+    <li>Tomar mais cafe</li>
+    </ol>
+
+<ol type="1" start="Começar em algum numero tipo 6">
+
+<ul>Lista nao ordenada'Sem numero so bolinha no inicio'</ul>
+    <li>Teste</li>
+    <li>Teste 2</li>
+
+        <dt>Termo</dt>
+        <dd>Descrição do termo</dd>
+
+<p>Voce pode acessar <a href="https://steamcommunity.com/profiles/76561198966661802/">Links</a></p>
+target="_blank" rel="external" Para cliclar e ir para abrir o link em outra guia
+-------------------------------------------------------------------------------------------------------------------------
+                               -Gambiarra-
+-------------------------------------------------------------------------------------------------------------------------
+&copy; 4i20
+&reg;  4i20 
+&#x1F596 emoji sempre colocar &#x de incii!!! emojipedia.org
+Seguar alt cliclar segurando o alt da pra modificar o comando
+../Localziar pastas

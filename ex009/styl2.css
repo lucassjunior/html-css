@@ -1,0 +1,5 @@
+/*configuração global *{} */
+
+body{
+    background-image: linear-gradient(to right, #012340,#04D939,#027333); /*to right,to left, to top,to bottom,linear-gradient(circle)*/
+}

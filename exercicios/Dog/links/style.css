@@ -1,0 +1,123 @@
+@charset "UTFT-";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --cor0:white;
+    --cor1:#BFB0B6;
+    --cor2:#A68986;
+    --cor3:#8C6461;
+    --cor4:#402422;
+    --cor5:#76537B;
+    --fonte-padrao: Arial, Verdana, Helvetica , sans-serif;
+    --fonte-destaque: "Bebas Neue", sans-serif;
+    --fonte-cursiva: "Dancing Script", cursive;
+    --fonte-texto:"PT Serif", serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{/*Configurado*/
+    background-color: var(--cor3);
+    font-family: var(--fonte-padrao);
+}
+
+header{/*Configurado*/
+    background-image: linear-gradient(to bottom,var(--cor1),var(--cor3));
+    min-width: 150px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+header > h1{
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-size: 2.5em;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+header > p{
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-size: 2em;
+    font-weight: normal;
+    max-width: 500px;/*Deixa todo para direita*/
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    margin: auto;
+    padding: 20px;
+}
+
+nav{
+    background-color: #72504e;
+    padding: 10px;
+}
+
+nav a{
+   
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: px;
+    transition-duration: 1s;
+}
+
+nav >a:hover{
+    background-color: var(--cor3);
+    color: var(--cor5);
+}
+
+main{
+    background-color: var(--cor0);
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+main p{
+    margin: 10px 0px 10px 0px;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: normal;
+    font-family: var(--fonte-padrao);
+}
+
+main strong{
+    color: rgba(173, 23, 23, 0.836);
+    font-family: var(--fonte-texto);
+    font-size: 1.1em;
+}
+
+main h1{
+    color: rgba(173, 23, 23, 0.836);
+    font-family: var(--fonte-destaque);
+    font-size: 1.5em;
+}
+
+.texto{
+    font-family: var(--fonte-texto);
+    font-size: 1.2em;
+}
+
+main img{
+    width: 100%;
+}
+
+.resumo{
+    color: #d60b5c;
+    font-family: var(--fonte-texto);
+}

@@ -1,0 +1,165 @@
+@charset "UTFT-";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --cor0:white;
+    --cor1:#BFB0B6;
+    --cor2:#A68986;
+    --cor3:#8C6461;
+    --cor4:#402422;
+    --cor5:#76537B;
+    --fonte-padrao: Arial, Verdana, Helvetica , sans-serif;
+    --fonte-destaque: "Bebas Neue", sans-serif;
+    --fonte-cursiva: "Dancing Script", cursive;
+    --fonte-texto:"PT Serif", serif;
+}
+*{/*Gruda tudo não mecher*/
+    padding: 0px;
+    margin: 0px;
+}
+
+body{/*Configurado*/
+    background-color: var(--cor3);
+    font-family: var(--fonte-padrao);
+}
+
+header{/*Configurado*/
+    background-image: linear-gradient(to bottom,var(--cor1),var(--cor3));
+    min-width: 150px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+header > h1{
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+header > p{
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-size: 2em;
+    font-weight: normal;
+    max-width: 500px;/*Deixa todo para direita*/
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    margin: auto;
+    padding: 20px;
+}
+
+nav{
+    background-color: #72504e;
+    padding: 10px;
+}
+
+nav a{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 1s;
+}
+
+nav >a:hover{
+    background-color: var(--cor3);
+    color: var(--cor5);
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+main p{
+    margin: 15px 0px 15px 0px;
+    text-align: center;
+    text-indent: 30px;/*Espaçamento no inicio da frase*/
+    font-size: 1em;
+    font-weight: bold;
+    line-height: normal;/*Espaçamento entre as letra*/
+    font-family: var(--fonte-padrao);
+    
+}
+main p.dog{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--fonte-texto);
+    font-size: 1.3em;
+    text-indent: 0px;
+    line-height: normal;
+    padding-bottom: 2.5px;
+    padding-top: 20px;
+}
+main strong{
+    color: var(--cor5);
+    font-weight: bold;
+    font-family: var(--fonte-padrao);
+    
+}
+
+main h2{
+    font-family: var(--fonte-destaque);
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+footer{
+    background-color: var(--cor1);
+    font-family: var(--fonte-cursiva);
+    color: var(--cor5);
+    text-align: center;
+    font-size: 1.4em;
+    padding: -2px;
+}
+
+.raça{
+    text-align: justify;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: var(--fonte-destaque);
+}
+
+main img{
+    width: 100%;
+}
+
+div.video{/*Videos*/
+    background-color:pink;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+div.video > iframe{/*Video youtube*/
+    position: absolute;
+    top: 5%;/*Cima*/
+    left: 5%;/*Esquerda*/
+    width: 90%;/*Largura*/
+    height: 90%;/*Altura*/
+}
+
+h4{
+    font-family: var(--fonte-texto);
+}
+
+h2{
+    text-align: center;
+    color: red;
+}

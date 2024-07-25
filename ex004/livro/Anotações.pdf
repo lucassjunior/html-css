@@ -1,0 +1,170 @@
+=====================================================================                                     
+                           -Node js. 'Regras'-
+=====================================================================
+R1-Podem começar com letras,$ ou _.
+
+R2-Não podem começar com números.
+
+R3-É possível usar letras ou números.
+
+R4-É possível usar acentos e símbolos.
+
+R5-Não podem conter espaçõs.
+
+R6-Não podem ser palavras reservadas('Palavras de comandos, ex:var').
+=====================================================================
+                               -Dicas-
+=====================================================================
+D1-Maiúsculas e minúsculas fazem diferença.
+
+D2-Tente escolher nomes coerentes para as variáveis.
+
+D3-Evite se tornar um 'progamador alfabeto' ou um 'progamador contador'.
+=======================================================================
+                             -Data Types-(JavaScript)
+=======================================================================
+DT1-Numbe,Valor=(infinity,NaN).
+
+DT2-String.
+
+DT3-Boolean.
+
+DT4-Null.
+
+DT5-Undefined.
+
+DT6-Object,Valor=(Array).
+
+DT6-Function.
+=======================================================================
+                             -Estudos-(JavaScript)
+E1-Numbe.
+
+E2-String.
+
+E3-Boolean.
+
+E4-Null.
+
+E5-Undefined.
+=======================================================================
+                             -Relembrando-
+=======================================================================
+Var= variáveis "Ex:var nome=window.prompt('Qual é seu nome?')".
+
+/*Comentarios em CSS */.
+
+//Comentario em JavaScript.
+
+<!--Comentario em HTML-->.
+
+Concatenação,"Juntar as palavras ou comandos".
+
+Var s = n1+n2 (Soma entre eles).
+
+Var + (para adição) ou (para concatenação).
+
+Var para adição (number + number).
+
+Var para concatenação (string + string). 
+=======================================================================
+                             String > Numero(JavaScript)
+=======================================================================
+
+Number.parseInt(n) 'Conversão de um numero para um numero inteiro' "5+5".
+
+Number.parseFloat(n) 'Numero real' "5.5".
+
+Number(n) Ele autumaticamente intende se inteiro ou real.
+
+=======================================================================
+                             Numero > String(JavaScript)
+=======================================================================
+
+String(n)
+
+n.toString()
+
+=======================================================================
+                             Formatando Strings (Node)
+=======================================================================
+Ex:var s = 'JavaScript'
+'Eu estou aprendendo s'
+         -Comando de exemplo-
+------------------------------------------------------------  
+> var s = 'JavaScript'
+undefined
+> s
+'JavaScript'
+>  'Eu estou estudando s' // nao faz interpolação
+'Eu estou estudando s'
+
+> 'Eu estou estudand ' + s //usa concatenação
+'Eu estou estudand JavaScript'
+
+`Estou aprendendo ${s}` //usa template string
+------------------------------------------------------------
+ 'O aluno '  + nome  + 'com ' + idade  + ' anos tirou a nota ' + nota //nao faz interpolação
+'O aluno Gustavocom 41 anos tirou a nota 5.5'
+
+ `O aluno ${nome} com ${idade} anos tirou a nota ${nota}` // usa concatenação
+'O aluno Gustavo com 41 anos tirou a nota 5.5'
+-------------------------------------------------------------
+s.lenght //quantas caracteres a string tem "Letras"
+
+s.toUpperCase() //tudo para letras "MAIUSCULAS"
+
+s.toLowerCase() // tudo para letras "minusculas"
+-------------------------------------------------------------
+         -Formatando Numeros-
+var n1 = "1512.5"
+
+n1=(Mostra o valor "1512.5)
+
+ n1.toFixed(2).replace('.', ',') "faz a troca do . para ,"
+-------------------------------------------------------------
+ n1.toLocaleString('pt-BR, {style: 'currency', currency: 'BRL'}) //Ele transforma o numero como "salario" ou R$ "Moeda do pais"
+ {style: 'currency', currency: 'BRL'} "Real"
+ {style: 'currency', currency: 'USD'} "Dolar"
+ {style: 'currency', currency: 'EUR'} "Euro"
+ -------------------------------------------------------------
+
+ =======================================================================
+                              -Operadores-
+Aritméticos, Atribuição, Relacionais, Lógicos , ternário
+ -------------------------------------------------------------
+ Aritméticos-"+, -, *, /, %, **."(Operadores para Calculo)  
+
+ -------------------------------------------------------------
+                             -Logicos-
+!(Negação), &&(Conjução), ||(Disjunção).
+ -------------------------------------------------------------
+ =======================================================================
+                             -Eventos Dom-
+ -------------------------------------------------------------
+onclick="clicar()" (Function de clicar)
+onmouseenter="entrar()" (Function de entrar)
+onmouseout="sair()" (Function de sair)
+{bloco({})}Ex: {
+    var = n2
+}
+ -------------------------------------------------------------
+ =======================================================================
+                            -Condições em JS-
+-------------------------------------------------------------
+<input type = "number" name =txtp id="txtp"> //Cria uma caixa de numero ou texto para fazer contas ou mostra 'mensagens'
+switch(expressao){
+    case valor1
+    ['COMANDOS']
+    break // obrigatorio
+}
+igual == 
+======================================================================
+                            -Repetições JS-
+-------------------------------------------------------------
+while = Enquanto
+do = Faça
+for Ex
+Array ou um vetor ou uma variavel composta e uma variavel que tem varios elementos cada elemento tem seu valor e sua chave de indentificação
+lenght
+-------------------------------------------------------------
