@@ -1,0 +1,47 @@
+@charset "UTFT-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+main{
+    height: 100vh;/*Usado para ter tamanho maximo*/
+    position: relative;/*Usado para centralizar*/
+   
+}
+body{
+    background-image: url(../imagens/fundo-madeira.jpg);/*Define imagem de fundo*/
+    background-repeat: no-repeat;/*Para fazer a imagem não repetir*/
+    background-position: top ,center;/*Centralizar imagem top centraliza a parte de cima da imagem e center pra centralizar ao meio resumindo a base e cima e o meio e o meio*/
+    background-size: cover;/*Preenche tamanho todo da imagem*/
+    background-attachment: fixed;/*Deixa imagem de fundo ou qualquer outra imagem fixa no meio dela ou na position que coloquei*/
+}
+
+section#telefone{
+    position: absolute;/*Position abstolute é usada para que o elemento da página parta do ponto superior esquerdo a outros elementos*/
+    top: 50%;/*Usada para centralizar ao meio da pagina a imagem*/
+    left: 50%;/*Usada para centralizar ao meio da pagina a imagem*/
+    transform: translate(-50%, -50%);/*Usada para arrumar a centralização ja que a imagem centraliza mas coma ponta da esquerda ao meio e nao a imagem*/
+    height: 627px;/*Altura*/
+    width: 311px;/*largura pros lado*/
+    background-image: url(../imagens/frame-iphone.png) ;
+   
+    background-repeat: no-repeat;
+    /*background-size: 100%;*/
+}
+
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 266px;
+    height: 471px;
+}
