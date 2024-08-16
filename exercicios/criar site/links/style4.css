@@ -11,7 +11,6 @@
     --fonte-destaque: "Bebas Neue", sans-serif;
     --fonte-cursiva: "Dancing Script", cursive;
     --fonte-texto:"PT Serif", serif;
-    --cor:rgba(255, 255, 255, 0.397);
 }
 
 *{
@@ -19,42 +18,35 @@
     padding: 0px;
 }
 
-body{
-    background-image: url(../fotos/a6d6dbaceb648059bfcc0ebd2dd21460.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    
-}
+body{   
+        background-image: url(../fotos/cyberpunk.png);
+        background-attachment: fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
 
-.ester{
-    text-decoration: none;
-    color: red;
 }
 
 main{
-    padding-top: 20px;
     padding-bottom: 25px;
     border-radius: 10px;
-    background-color:var(--cor);
-    color: black;
+    background-color:rgba(0, 0, 0, 0.616);
+    backdrop-filter: blur(10px);
+    color: rgb(255, 255, 255);
     max-width: 1000px;
     min-width: 300px;
     margin: auto;
-    margin-top: 55px;
+    margin-top: 5%;
+    margin-bottom: 20px;
 }
 
 nav{
-max-width: 100vh;
-min-width: 100vw;
+background-color: rgba(173, 216, 230, 0.247);
+backdrop-filter: blur(10px);
 padding-bottom: 5px;
 font-size: 15px;
 font-weight: bold;
-background-image: linear-gradient(to right,#0070D9  20%, #450101 65%);
-
 }
-
 
 nav a:hover{
     background-color: rgba(128, 128, 128, 0.637);
@@ -62,6 +54,7 @@ nav a:hover{
 }
 
 nav a{
+    
     text-decoration: none;
     color: black;
     font-size: 1.2em;
@@ -72,25 +65,28 @@ nav a{
     transition-duration: 1s;
 }
 
-.black{
-    text-align: center;
+h3{
+    padding: 5px;
     font-family: var(--fonte-texto);
-    font-weight: bolder;
-    color: #920b01;
 }
 
 h1{
-    margin-bottom: -5px;
     font-family: var(--fonte-destaque);
-    font-weight: bold;
+    color: black;
 }
 
 p{
     font-family: var(--fonte-texto);
     font-weight: bolder;
-    color: rgb(37, 36, 36);
 }
 
-p,h2,h3{
-    padding: 5px;
+.cor{
+    color: red;
+    text-align: center;
+}
+
+.cor2{
+    color: white;
+    font-weight: bolder;
+    padding-top: 5px;
 }
