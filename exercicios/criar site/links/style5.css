@@ -31,7 +31,7 @@ main{
     padding-top: 20px;
     padding-bottom: 25px;
     border-radius: 10px;
-    background-color:rgba(255, 255, 255, 0.322);
+    background-color:rgba(255, 255, 255, 0.322);/*Degrade vermelho pro verde igual do wallpper*/
     backdrop-filter: blur(10px);
     color: black;
     max-width: 1000px;
