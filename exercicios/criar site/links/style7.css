@@ -19,7 +19,7 @@
 }
 
 body{
-    background-image: url(../fotos/6bd366d083d99cc6ea24a87792d3b667.jpg);/*Botar gif*/
+    background-image: url(../fotos/Yofukashi.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,19 +31,19 @@ main{
     padding-top: 20px;
     padding-bottom: 25px;
     border-radius: 10px;
-    background: rgb(167,119,127);
-    background: linear-gradient(90deg, rgba(167, 119, 127, 0.63), rgba(165, 203, 162, 0.473));
-    backdrop-filter: blur(10px);
+    background-image: linear-gradient(to bottom,#212b9d69,#b142af49);
+    backdrop-filter: blur(15px);
     color: black;
     max-width: 1000px;
     min-width: 300px;
     margin: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 nav{
-    background-color: #e0ecd0a9;
+    background-color: #1d176d31;
+   
     backdrop-filter: blur(10px);
     padding-bottom: 5px;
     font-size: 15px;
@@ -51,13 +51,14 @@ nav{
  }
     
     nav a:hover{
+
         background-color: rgba(128, 128, 128, 0.637);
         border-radius: 10px 10px 10px 10px; 
     }
     
     nav a{
         text-decoration: none;
-        color: black;
+        color: white;
         font-size: 1.2em;
         font-weight: bold;
         padding: 10px;
@@ -66,21 +67,21 @@ nav{
         transition-duration: 1s;
 }
 
-h3, h1{
+h1,h3{
+    color: rgb(218, 199, 199);
     padding: 7.5px;
     font-size: 18.5px;
-}
-
-h3{
-    font-family: var(--fonte-texto);
-    font-weight: bold;
+    font-family: var(--fonte-texto)
 }
 
 h1{
-    font-family: var(--fonte-texto);
     font-weight: bolder;
 }
 
-.a{
+h3{
+    font-weight: bold;
+}
+
+.ma{
     text-align: center;
 }

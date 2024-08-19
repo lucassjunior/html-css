@@ -19,7 +19,7 @@
 }
 
 body{
-    background-image: url(../fotos/6bd366d083d99cc6ea24a87792d3b667.jpg);/*Botar gif*/
+    background-image: url(../fotos/tonario.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,19 +31,18 @@ main{
     padding-top: 20px;
     padding-bottom: 25px;
     border-radius: 10px;
-    background: rgb(167,119,127);
-    background: linear-gradient(90deg, rgba(167, 119, 127, 0.63), rgba(165, 203, 162, 0.473));
+    background-color:rgba(255, 255, 255, 0.322);
     backdrop-filter: blur(10px);
     color: black;
     max-width: 1000px;
     min-width: 300px;
     margin: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 nav{
-    background-color: #e0ecd0a9;
+    background-color: rgba(255, 255, 255, 0.322);
     backdrop-filter: blur(10px);
     padding-bottom: 5px;
     font-size: 15px;
@@ -66,21 +65,20 @@ nav{
         transition-duration: 1s;
 }
 
-h3, h1{
-    padding: 7.5px;
+h1,h3{
+    padding: 7px;
     font-size: 18.5px;
-}
-
-h3{
-    font-family: var(--fonte-texto);
-    font-weight: bold;
+    font-family: var(--fonte-texto)
 }
 
 h1{
-    font-family: var(--fonte-texto);
-    font-weight: bolder;
+font-weight: bolder;
 }
 
-.a{
+h3{
+    font-weight: bold;
+}
+
+.tutu{
     text-align: center;
 }
