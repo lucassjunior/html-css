@@ -46,6 +46,7 @@ main{
 }
 
 nav{
+text-indent: 1em;
  background-color: rgba(0, 0, 0, 0.397);
  padding-bottom: 5px;
  font-size: 15px;
