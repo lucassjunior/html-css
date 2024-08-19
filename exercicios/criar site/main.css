@@ -20,7 +20,7 @@
 }
 
 body{
-    background-image: url(fotos/image.png);
+    background-image: url(fotos/coast-landscape-digital-art.jpg );
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -34,17 +34,19 @@ body{
 
 
 main{
-    background-color: rgba(255, 255, 255, 0.397);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.397);
     color: black;
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
-    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 50px;
     padding: 20px;
 }
 
 nav{
- background-color: rgba(255, 255, 255, 0.397);
+ background-color: rgba(0, 0, 0, 0.397);
  padding-bottom: 5px;
  font-size: 15px;
  font-weight: bold;
@@ -57,7 +59,7 @@ nav a:hover{
 
 nav a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 1.2em;
     font-weight: bold;
     padding: 10px;
@@ -67,7 +69,9 @@ nav a{
 }
 
 h1,h2{
-    color: lightgray;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    color: rgb(255, 255, 255);
     font-size: 27.5px;
     font-family: var(--fonte-destaque);
     font-weight: bolder;
@@ -75,14 +79,16 @@ h1,h2{
 }
 
 p{
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     font-family: var(--fonte-texto);
     font-size: 19px;
     font-weight: bolder;
-    color: rgb(49, 49, 49);
+    color: rgb(194, 187, 187);
 }
 
 .seja{
+    color: white;
+    font-family: var(--fonte-destaque);
     padding-bottom: 10px;
 }
 
@@ -93,13 +99,13 @@ article{
 }
 
 footer{
-    margin-top: -30px;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.397);
+    background-color: rgba(0, 0, 0, 0.397);
 }
 
 .aether{
-    color: pink;
+    padding: 0px;
+    color: rgb(228, 118, 136);
     font-family: var(--fonte-cursiva);
     font-size: 1.4em;
 }
