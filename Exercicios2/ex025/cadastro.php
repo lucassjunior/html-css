@@ -1,1 +1,1 @@
-Bom dia
+<p>Bom dia</p>
