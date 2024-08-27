@@ -4,17 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+ 
 </head>
 <body>
     <h1>Exemplo de formulario</h1>
     <form action="cadastro.php" method="post"  autocomplete="on">
-      <fieldset>
-        <legend>Esportes favoritos</legend>
-        <input type="checkbox" name="es" id="fut"><label for="fut">Futebol</label>
-        <input type="checkbox" name="bs" id="bas"><label for="bas">Basquete</label>
-        <input type="checkbox" name="vl" id="vol"><label for="vol">Volei</label>
-        <input type="checkbox" name="na" id="nat"><label for="nat">Natação</label>
-      </fieldset>
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sx" id="masc" value="M">
+            <label for="masc">Masculino</label>
+            <input type="radio" name="  sx" id="fem" value="F">
+            <label for="fem">Feminino</label>
+        </fieldset>
+          <fieldset>
+            <legend>Jogos favoritos</legend>
+            <input  type="checkbox" name="es" id="fut"><label for="fut">Cs2</label>
+            <input  type="checkbox" name="bs" id="bas"><label for="bas">Cs go</label>
+            <input  type="checkbox" name="vl" id="vol"><label for="vol">Cod</label>
+            <input  type="checkbox" name="na" id="nat"><label for="nat">Mainecraft</label>
+            <input  type="checkbox" name="na" id="rbl"><label for="rbl">Roblox</label>
+            <input type="checkbox" name="na" id="hnd"><label for="hnd">Hand Simulator</label>
+            <input type="checkbox" name="na" id="phs"><label for="phs">Phasmophobia</label>
+          </fieldset>
         <div>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
