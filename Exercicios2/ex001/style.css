@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-*
+
 main{
     
     font-family: "Roboto", sans-serif;
@@ -13,12 +13,12 @@ main{
 }
 
 body{
-
     /* Define a imagem de fundo */
     background-image:url(imagens/background.png);
     background-size: cover;/* Para cobrir todo o tamanho do corpo */
-    background-position: center;/* Centraliza a imagem de fundo */
-    text-align: center;
+    background-position: center center;/* Centraliza a imagem de fundo */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
 }
 
 h3, h2, h1{
@@ -93,3 +93,14 @@ h1#principal{
     width: 600px;
     text-align: auto;
 }
+
+ul{
+        list-style-position: inside;
+        list-style-type: '\1F5F8\00A0\00A0'; /* emoji como marcador */
+        columns: 2; /* divide a lista em duas colunas */
+        text-align: center; /* centraliza o texto */
+        margin: auto; /* centraliza a lista */
+        font-weight: bolder;
+        font-size: 1.2em;
+}
+
