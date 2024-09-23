@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+/*Todas as midias*/
+/* Extra small devices (phones, 600px and down) ----> Relogio de pulso
+@media only screen and (max-width: 600px) {...}
+
+small devices (portrait tablets and large phones, 600px and up) ---->  Celular
+@media only screen and (min-width: 600px) {...}
+
+ Medium devices (landscape tablets, 768px and up) ----> Tablet
+@media only screen and (min-width: 768px) {...}
+
+ Large devices (laptops/desktops, 992px and up) ----> PC
+@media only screen and (min-width: 992px) {...}
+
+ Extra large devices (large laptops and desktops, 1200px and up) ---->  Tv
+@media only screen and (min-width: 1200px) {...}
+*/
+@media print {/*Impressora*/
+    body{
+        background-image: url(../imagens/back-print.jpg);
+    }
+
+    img#cell{
+        display: none;
+    }
+    
+    img#tablet{
+        display: none;
+    }
+    
+    img#print{
+        display: block;
+    }
+    
+    img#pc{
+       display: none; 
+    }
+    
+    img#tv{
+       display: none; 
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {/*Tablet*/
+
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+
+    img#cell{
+        display: none;
+    }
+    
+    img#tablet{
+        display: block;
+    }
+    
+    img#print{
+        display: none;
+    }
+    
+    img#pc{
+       display: none; 
+    }
+    
+    img#tv{
+       display: none; 
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {/*PC*/
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    img#cell{
+        display: none;
+    }
+    
+    img#tablet{
+        display: none;
+        
+    }
+    
+    img#print{
+        display: none;
+    }
+    
+    img#pc{
+       display: block; 
+    }
+    
+    img#tv{
+       display: none; 
+    }
+
+}
+@media screen and (min-width: 1200px){/*TV*/
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+
+    img#cell{
+        display: none;
+    }
+    
+    img#tablet{
+        display: none;
+    }
+    
+    img#print{
+        display: none;
+    }
+    
+    img#pc{
+       display: none; 
+    }
+    
+    img#tv{
+       display: block; 
+    }
+} 
