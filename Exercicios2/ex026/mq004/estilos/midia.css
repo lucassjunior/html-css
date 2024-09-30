@@ -16,11 +16,26 @@ small devices (portrait tablets and large phones, 600px and up) ---->  Celular
  Extra large devices (large laptops and desktops, 1200px and up) ---->  Tv
 @media only screen and (min-width: 1200px) {...}
 */
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
 @media print {/*Impressora*/
     body{
-        background-image: url(../imagens/back-print.jpg);
-    }
+        background-image: url(../imagens/back-print.jpg);/*Desnecessario*/ }
 
+        main{
+            width: 90vw;
+            border: 2px solid black;
+        }
+
+     main h1{
+        text-shadow: none;
+        color: black;
+      
+     }
+       
     img#cell{
         display: none;
     }
@@ -101,6 +116,10 @@ small devices (portrait tablets and large phones, 600px and up) ---->  Celular
 @media screen and (min-width: 1200px){/*TV*/
     body{
         background-image: url(../imagens/back-tv.jpg);
+    }
+
+    main{
+        width: 700px;
     }
 
     img#cell{
